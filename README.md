@@ -1,30 +1,26 @@
 # Frozen Land — Digital Menu
 
-A responsive, mobile-first digital menu for **Frozen Land**.
+A responsive, mobile-first Arabic digital menu for **Frozen Land**.
 
-## Features
+## Included
 
 - Frozen Land ice-blue branding
-- Arabic RTL interface
-- Search and category filters
-- Add-to-cart flow
+- Arabic RTL layout
+- Search + category filters
+- Full menu from the supplied Frozen Land menu sheet
+- Cart with quantity controls
 - Separate USD and LBP totals
 - Pickup / delivery selection
-- Customer notes and delivery address
-- Direct WhatsApp order to **+961 81 099 552**
-- Business address displayed as **جانب صيدلية برج أبو حيدر**
-- No build step required
+- Customer name, phone, address, and notes
+- Direct WhatsApp ordering to **+961 81 099 552**
+- Business address: **جانب صيدلية برج أبو حيدر**
+- Responsive mobile / tablet / desktop design
+- No build step or backend required
 
-## Run locally
+## Project structure
 
-Open `index.html` directly in a browser, or serve the folder with any static web server.
+The full site is contained in `index.html` so it can be uploaded to any static host with no setup.
 
-## Deploy
+## Deployment
 
-This is a static site. You can deploy it on GitHub Pages, Hostinger, Netlify, Vercel, or any standard static hosting.
-
-## Files
-
-- `index.html` — page structure and embedded Frozen Land logo
-- `styles.css` — responsive branding and layout
-- `app.js` — menu data, cart, checkout, and WhatsApp order flow
+Upload `index.html` to Hostinger public_html, or deploy the repository through any static hosting provider.
